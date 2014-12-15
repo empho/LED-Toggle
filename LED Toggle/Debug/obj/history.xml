@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103RC -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\CJ\Dev\LED Toggle\semihosting -ID:\CJ\Dev\LED Toggle\cmsis_boot -ID:\CJ\Dev\LED Toggle\cmsis -ID:\CJ -ID:\CJ\Dev\LED Toggle\stm_lib\inc -ID:\CJ\Dev -ID:\CJ\Dev\LED Toggle\stm_lib -ID:\CJ\Dev\LED Toggle">
+      <target file="stm32f10x_tim.o" lastModified="14a3a7bcd8b">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="14a2fc187a0"/>
+      </target>
+      <target file="startup_stm32f10x_hd.o" lastModified="14a3a7bce98">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="14a2fc16090"/>
+      </target>
+      <target file="LED.o" lastModified="14a3a7bd2f4">
+         <source file="..\..\..\LED.c" lastModified="14a33801e10"/>
+      </target>
+      <target file="printf.o" lastModified="14a3a7bd0e9">
+         <source file="..\..\..\stdio\printf.c" lastModified="14a3530db50"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="14a3a7bce21">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14a2fc16090"/>
+      </target>
+      <target file="main.o" lastModified="14a3dd30b18">
+         <source file="..\..\..\main.c" lastModified="14a3dcf3f07"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="14a3a7bcf3a">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14a2fc17fd0"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="14a3a7bd1d8">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="14a352d60b0"/>
+      </target>
+      <target file="semihosting.o" lastModified="14a3a7bcc5e">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="14a352d60b0"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="14a3a7bd19b">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14a2fc17030"/>
+      </target>
+      <target file="misc.o" lastModified="14a3a7bd263">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="14a2fc87ce0"/>
+      </target>
+   </processor>
+</history>

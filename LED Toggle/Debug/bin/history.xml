@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=LED Toggle.map -O0 --gc-sections -LC:\CoIDE\configuration\ProgramData\LED Toggle -TC:\CoIDE\configuration\ProgramData\LED Toggle/arm-gcc-link.ld -g">
+      <target file="LED Toggle.elf" lastModified="14a3dd3104a">
+         <source file="..\obj\semihosting.o" lastModified="14a3a7bcc5e"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="14a3a7bcd8b"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="14a3a7bce21"/>
+         <source file="..\obj\startup_stm32f10x_hd.o" lastModified="14a3a7bce98"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="14a3a7bcf3a"/>
+         <source file="..\obj\main.o" lastModified="14a3dd30b18"/>
+         <source file="..\obj\printf.o" lastModified="14a3a7bd0e9"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="14a3a7bd19b"/>
+         <source file="..\obj\sh_cmd.o" lastModified="14a3a7bd1d8"/>
+         <source file="..\obj\misc.o" lastModified="14a3a7bd263"/>
+         <source file="..\obj\LED.o" lastModified="14a3a7bd2f4"/>
+      </target>
+   </processor>
+</history>
